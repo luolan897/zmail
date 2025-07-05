@@ -8,7 +8,7 @@ compatibility_date = "2025-03-01"
 
 # 设置自定义域名
 routes = [
-  { pattern = "maxmail.zone.id", custom_domain = true }
+  { pattern = "max-1.cloudns.ch", custom_domain = true }
 ]
 
 # 启用 D1 数据库
