@@ -1,4 +1,4 @@
-name = "zmail"
+name = "max-TempMail24h"
 main = "worker/src/index.ts"
 
 # 打包配置
@@ -8,14 +8,14 @@ compatibility_date = "2025-03-01"
 
 # 设置自定义域名
 routes = [
-  { pattern = "mail.mdzz.uk", custom_domain = true }
+  { pattern = "maxmail.zone.id", custom_domain = true }
 ]
 
 # 启用 D1 数据库
 [[d1_databases]]
 binding = "DB"
-database_name = "zmail"  # 替换为您的实际的数据库 NAME
-database_id = "d77b6f63-43ad-46a9-8a49-d4a2706be53e"  # 需要替换为您的实际数据库 ID
+database_name = "24htemp-mail"  # 替换为您的实际的数据库 NAME
+database_id = "2dbd5a29-8b54-4b1c-a0f7-81041af0a1ff"  # 需要替换为您的实际数据库 ID
 
 # 设置域名
 [vars]
